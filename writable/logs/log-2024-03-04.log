@@ -1,0 +1,1204 @@
+INFO - 2024-03-04 21:50:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 21:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 21:50:36 --> CSRF token verified.
+INFO - 2024-03-04 21:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 21:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 21:50:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 21:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 21:50:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 21:50:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 21:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 21:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 21:50:41 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 21:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 21:50:41 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 21:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 21:50:41 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 21:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 21:50:41 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 21:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 21:50:41 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 21:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 21:50:42 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 21:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:02:14 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:02:14 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:02:14 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:02:14 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:02:14 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:02:14 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:02:16 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:02:16 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:02:16 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:02:16 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:02:16 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:02:16 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:02:17 --> CSRF token verified.
+INFO - 2024-03-04 22:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:02:18 --> Não há dados para update.
+in SYSTEMPATH\BaseModel.php on line 1747.
+ 1 SYSTEMPATH\BaseModel.php(1747): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], Object(App\Entities\Entregador))
+ 4 SYSTEMPATH\BaseModel.php(696): CodeIgniter\Model->update('1', Object(App\Entities\Entregador))
+ 5 APPPATH\Controllers\Admin\Entregadores.php(288): CodeIgniter\BaseModel->save(Object(App\Entities\Entregador))
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:02:32 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:02:32 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:02:32 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:02:32 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:02:32 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:02:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:02:33 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:03:29 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:03:29 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:03:29 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:03:29 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:03:29 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:03:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:03:29 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:03:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:03:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:03:35 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:03:35 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:03:35 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:03:35 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:03:35 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:03:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:03:35 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:03:36 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:03:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:03:36 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:03:37 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:03:37 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:03:37 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:03:37 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:03:37 --> CSRF token verified.
+INFO - 2024-03-04 22:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:03:38 --> Não há dados para update.
+in SYSTEMPATH\BaseModel.php on line 1747.
+ 1 SYSTEMPATH\BaseModel.php(1747): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray([], 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], Object(App\Entities\Entregador))
+ 4 SYSTEMPATH\BaseModel.php(696): CodeIgniter\Model->update('1', Object(App\Entities\Entregador))
+ 5 APPPATH\Controllers\Admin\Entregadores.php(288): CodeIgniter\BaseModel->save(Object(App\Entities\Entregador))
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:04:44 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:04:44 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:04:44 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:04:44 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:04:44 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:04:44 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:04:47 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:04:47 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:04:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:04:48 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:04:48 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:04:48 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:04:48 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:04:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:06:15 --> CSRF token verified.
+INFO - 2024-03-04 22:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:06:15 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:06:15 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:06:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:06:16 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:06:16 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:06:16 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:06:16 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:06:17 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 161
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(161): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->editarImagem('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:06:17 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 161
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(161): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->editarImagem('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:06:17 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 161
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(161): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->editarImagem('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:06:17 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 161
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(161): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->editarImagem('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:06:17 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 161
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(161): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->editarImagem('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:06:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:06:18 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 161
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(161): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->editarImagem('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:00 --> CSRF token verified.
+INFO - 2024-03-04 22:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:01 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:01 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:01 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:01 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:01 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:01 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:05 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:05 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:06 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:06 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:06 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:06 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:07:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:09 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:10 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:10 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:11 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:11 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:11 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 273
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(273): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:11 --> CSRF token verified.
+INFO - 2024-03-04 22:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:07:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:15 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:15 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:15 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:15 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:15 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:15 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:17 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:17 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:17 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:17 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:17 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:17 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:18 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 161
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(161): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->editarImagem('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:19 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 161
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(161): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->editarImagem('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:19 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 161
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(161): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->editarImagem('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:19 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 161
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(161): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->editarImagem('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:19 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 161
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(161): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->editarImagem('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:19 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 161
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(161): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->editarImagem('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:22 --> CSRF token verified.
+INFO - 2024-03-04 22:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:22 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:22 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:22 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:22 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:23 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:07:23 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:07:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:07:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:09:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:09:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:09:15 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:09:15 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:09:15 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:09:15 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:09:15 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:09:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:09:15 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:09:17 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 274
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(274): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:09:17 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 274
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(274): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:09:17 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 274
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(274): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:09:17 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 274
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(274): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:09:17 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 274
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(274): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-04 22:09:17 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 274
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(274): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->excluir('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-04 22:09:18 --> CSRF token verified.
+INFO - 2024-03-04 22:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 22:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 23:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 23:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 23:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 23:12:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 23:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 23:12:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 23:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 23:17:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 23:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 23:17:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 23:18:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-04 23:18:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

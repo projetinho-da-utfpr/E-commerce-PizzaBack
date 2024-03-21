@@ -1,0 +1,1555 @@
+INFO - 2024-03-05 07:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:22:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:23:04 --> CSRF token verified.
+INFO - 2024-03-05 07:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:23:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-03-05 07:23:10 --> mysqli_sql_exception: Table 'itaipu.entregadores' doesn't exist in C:\xampp\htdocs\itaipu\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\itaipu\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\itaipu\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\itaipu\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\itaipu\system\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\itaipu\system\Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\itaipu\system\BaseModel.php(1203): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php(22): CodeIgniter\BaseModel->paginate(10)
+#7 C:\xampp\htdocs\itaipu\system\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->index()
+#8 C:\xampp\htdocs\itaipu\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+#9 C:\xampp\htdocs\itaipu\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\itaipu\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\itaipu\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2024-03-05 07:23:10 --> Table 'itaipu.entregadores' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1699): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `entregadores`', [], false)
+ 2 SYSTEMPATH\Model.php(599): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH\BaseModel.php(1203): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\Admin\Entregadores.php(22): CodeIgniter\BaseModel->paginate(10)
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:23:51 --> CSRF token verified.
+INFO - 2024-03-05 07:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:23:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:25:59 --> CSRF token verified.
+INFO - 2024-03-05 07:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:26:00 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:26:00 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:26:00 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:26:00 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:26:01 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:26:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:26:01 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:26:51 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 161
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(161): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->editarImagem('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:26:51 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 161
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(161): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->editarImagem('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:26:51 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 161
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(161): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->editarImagem('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:26:51 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 161
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(161): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->editarImagem('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:26:51 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 161
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(161): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->editarImagem('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:26:52 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 161
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(161): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->editarImagem('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:27:36 --> CSRF token verified.
+INFO - 2024-03-05 07:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:27:37 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:27:37 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:27:37 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:27:37 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:27:37 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:27:37 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:27:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:29:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:30:20 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:30:21 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:30:21 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:30:21 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:30:21 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:30:21 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:59:36 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:59:36 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:59:37 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:59:37 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:59:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:59:37 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 07:59:38 --> Argument 1 passed to App\Controllers\Admin\Entregadores::buscaEntregadorOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Entregadores.php on line 142
+in APPPATH\Controllers\Admin\Entregadores.php on line 152.
+ 1 APPPATH\Controllers\Admin\Entregadores.php(142): App\Controllers\Admin\Entregadores->buscaEntregadorOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Entregadores->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Entregadores))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 07:59:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 07:59:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 08:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 08:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 08:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 08:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 08:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 08:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 08:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 08:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 08:00:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 08:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 08:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 08:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 08:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 08:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:04:26 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:04:27 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:04:27 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:04:27 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:04:27 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:04:27 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 08:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:06:58 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:06:59 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:06:59 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:06:59 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:06:59 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:06:59 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 08:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:07:28 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:07:28 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:07:28 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:07:28 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:07:29 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:07:29 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 08:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:08:09 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:08:09 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:08:09 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:08:09 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:08:09 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:08:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:08:10 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 08:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:08:23 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:08:23 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:08:23 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:08:23 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:08:23 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:08:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:08:24 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 08:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:09:06 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:09:07 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:09:07 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:09:07 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:09:07 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 08:09:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 08:09:07 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 62.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 09:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 09:58:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 09:58:45 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 09:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 09:58:46 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 09:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 09:58:46 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 09:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 09:58:46 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 09:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 09:58:46 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 09:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 09:58:46 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 09:59:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 09:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 09:59:30 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 09:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 09:59:30 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 09:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 09:59:30 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 09:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 09:59:30 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 09:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 09:59:30 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 09:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 09:59:30 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 09:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 09:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 09:59:43 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 09:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 09:59:43 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 09:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 09:59:44 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 09:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 09:59:44 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 09:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 09:59:44 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 09:59:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 09:59:44 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:00:35 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:00:36 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:00:36 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:00:36 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:00:36 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:00:36 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:02:22 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:02:22 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:02:22 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:02:22 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:02:23 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:02:23 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 78.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:21 --> CSRF token verified.
+INFO - 2024-03-05 10:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:22 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:22 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:22 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:22 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:23 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:23 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:31 --> CSRF token verified.
+INFO - 2024-03-05 10:09:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:32 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:32 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:32 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:33 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:33 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:33 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:44 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:44 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:45 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:45 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:45 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:45 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:47 --> CSRF token verified.
+INFO - 2024-03-05 10:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:09:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:48 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:48 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:48 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:48 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:48 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:48 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:52 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:52 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:52 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:52 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:52 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:52 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:56 --> CSRF token verified.
+INFO - 2024-03-05 10:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:57 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:57 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:57 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:57 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:57 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:09:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:09:57 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 115.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:19:57 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 117.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:19:58 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 117.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:19:58 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 117.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:19:58 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 117.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:19:58 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 117.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:19:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:19:58 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 117.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:20:05 --> CSRF token verified.
+INFO - 2024-03-05 10:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:20:05 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 117.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:20:05 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 117.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:20:06 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 117.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:20:06 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 117.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:20:06 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 117.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:20:06 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 117.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:20:31 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 117.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:20:31 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 117.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:20:31 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 117.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:20:32 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 117.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:20:32 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 117.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:20:32 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 64
+in APPPATH\Controllers\Admin\Bairros.php on line 117.
+ 1 APPPATH\Controllers\Admin\Bairros.php(64): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:20:36 --> CSRF token verified.
+INFO - 2024-03-05 10:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:20:36 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 117.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'logo_itaipu.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:20:36 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 117.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'logo-mini.png')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:20:36 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 117.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:20:37 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 117.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:20:37 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 117.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-03-05 10:20:37 --> Argument 1 passed to App\Controllers\Admin\Bairros::buscabairroOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\itaipu\app\Controllers\Admin\Bairros.php on line 52
+in APPPATH\Controllers\Admin\Bairros.php on line 117.
+ 1 APPPATH\Controllers\Admin\Bairros.php(52): App\Controllers\Admin\Bairros->buscabairroOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Bairros->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Bairros))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
+INFO - 2024-03-05 10:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 10:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:43:05 --> CSRF token verified.
+INFO - 2024-03-05 21:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:43:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:43:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-03-05 21:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

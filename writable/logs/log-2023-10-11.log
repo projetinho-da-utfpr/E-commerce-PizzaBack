@@ -1,0 +1,11 @@
+ERROR - 2023-10-11 15:34:33 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'Engenharia CHARACTER SET utf8 COLLATE utf8_general_ci' at line 1 in C:\xampp\htdocs\itaipu\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\itaipu\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE DATABASE...', 0)
+#1 C:\xampp\htdocs\itaipu\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE DATABASE...')
+#2 C:\xampp\htdocs\itaipu\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE DATABASE...')
+#3 C:\xampp\htdocs\itaipu\system\Database\Forge.php(230): CodeIgniter\Database\BaseConnection->query('CREATE DATABASE...')
+#4 C:\xampp\htdocs\itaipu\system\Commands\Database\CreateDatabase.php(134): CodeIgniter\Database\Forge->createDatabase('Itaipu Engenhar...')
+#5 C:\xampp\htdocs\itaipu\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\CreateDatabase->run(Array)
+#6 C:\xampp\htdocs\itaipu\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:create', Array)
+#7 C:\xampp\htdocs\itaipu\spark(102): CodeIgniter\CLI\Console->run()
+#8 {main}

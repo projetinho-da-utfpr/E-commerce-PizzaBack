@@ -1,0 +1,24 @@
+INFO - 2024-01-08 18:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-08 18:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-08 18:01:07 --> CSRF token verified.
+ERROR - 2024-01-08 18:01:10 --> Email: Não foi possível enviar e-mail usando PHP SMTP. Seu servidor pode não estar configurado para enviar e-mail usando este método.
+ERROR - 2024-01-08 18:01:10 --> 220 smtp.gmail.com ESMTP sc18-20020a17090b511200b0028bcc2a47e9sm6893404pjb.38 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [138.186.110.166]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Falha ao autenticar a senha. Erro: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials sc18-20020a17090b511200b0028bcc2a47e9sm6893404pjb.38 - gsmtp
+
+INFO - 2024-01-08 18:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-08 18:01:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-08 19:04:00 --> CSRF token verified.
+INFO - 2024-01-08 19:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-08 19:04:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-08 19:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

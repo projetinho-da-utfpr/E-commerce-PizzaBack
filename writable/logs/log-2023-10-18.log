@@ -1,0 +1,10 @@
+CRITICAL - 2023-10-18 12:11:12 --> syntax error, unexpected ')'
+in APPPATH\Views\Admin\Usuarios\index.php on line 45.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Admin/Usuarios/index', [], true)
+ 3 APPPATH\Controllers\Admin\Usuarios.php(22): view('Admin/Usuarios/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Usuarios->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\itaipu\\public\\index.php')
