@@ -73,4 +73,24 @@ class ProdutoModel extends Model
                                     ->set('deletado_em',null)
                                     ->update();
     }
+
+    public function buscaProdutosWebHome(){
+        return $this->select([
+            'produtos.id',
+            'produtos.nome',
+            'produtos.ingredientes',
+            'produtos.slug',
+            'produtos.imagem',
+            'categorias.id AS categoria_id',
+            'categorias.nome AS categoria',
+            'categorias.slug As categoria_slug',
+        ])
+        ->selectMin('produtos_especificacoes.preco')
+        ->join('categorias','categorias.id = produtos.categoria_id')
+        ->join('produtos_especificacoes','produtos_especificacoes.produto_id = produtos.id')
+        ->where('produtos.ativo',true)
+        ->groupBy('produtos.nome')
+        ->orderBy('categorias.nome','ASC')
+        ->findAll();
+    }
 }

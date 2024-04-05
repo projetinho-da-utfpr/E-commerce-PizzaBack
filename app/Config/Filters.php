@@ -28,6 +28,7 @@ class Filters extends BaseConfig
         'admin' => \App\Filters\AdminFilter::class,  //Filtro de admin
         'visitante' => \App\Filters\VisitanteFilter::class,  //Filtro de Visitante
         'throttle' => \App\Filters\ThrottleFilter::class, //Filtro que ajuda a previnir ataques de força bruta
+        'cors' => \App\Filters\CorsFilter::class, //Filtro para o front ter acesso ao back
     ];
 
     /**
@@ -41,6 +42,7 @@ class Filters extends BaseConfig
         'before' => [
             // 'honeypot',
             'csrf',
+            'cors'
             // 'invalidchars',
         ],
         'after' => [
