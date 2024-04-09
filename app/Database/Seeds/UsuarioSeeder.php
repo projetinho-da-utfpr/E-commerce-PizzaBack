@@ -14,18 +14,12 @@ class UsuarioSeeder extends Seeder
             'email' => 'admin@admin.com',
             'cpf' => '415.680.020-25',
             'telefone' => '44 998040796',
+            'password'=> '123456',
+            'password_confirmation'=>'123456',
         ];
 
         $usuarioModel->protect(false)->insert($usuario);
 
-        $usuario = [
-            'nome' => 'Marcos GPS',
-            'email' => 'marcola@admin.com',
-            'cpf' => '283.600.670-66',
-            'telefone' => '44 9898748492',
-        ];
-
-        $usuarioModel->protect(false)->insert($usuario);
 
         dd($usuarioModel->errors());
     }

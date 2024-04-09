@@ -70,7 +70,7 @@
 
 
               <div class="brand-logo mb-1">
-                <img src="<?php echo site_url('admin/') ?>images/logo_itaipu.png" alt="logo" width="200" height="100">
+                <img src="<?php echo site_url('admin/') ?>images/Bello.jpg" alt="logo" width="200" height="100">
               </div>
               <h4>Olá, seja bem vindo(a)!</h4>
               <h6 class="font-weight-light mb-3">Por favor realize o login.</h6>
