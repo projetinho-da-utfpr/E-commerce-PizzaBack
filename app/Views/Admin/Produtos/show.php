@@ -19,7 +19,7 @@
 
 <?php echo $this->section('conteudo'); ?>
 <div class="row">
-    <div class="col-lg-5 grid-margin stretch-card">
+    <div class="col-lg-6 grid-margin stretch-card">
         <div class="card">
             <div class="card-header bg-secondary pb-0 pt-4">
                 <h4 class="card-title text-white"><?php echo esc($titulo); ?></h4>
@@ -100,12 +100,12 @@
                         Especificações
                     </a>
 
-                    <a href= "<?php echo site_url("admin/produtos/excluir/$produto->id"); ?>"class="btn btn-danger btn-sm mr-2 btn-sm">
+                    <a href= "<?php echo site_url("admin/produtos/excluir/$produto->id"); ?>"class="btn btn-danger btn-sm mt-2 mr-2 btn-sm">
                         <i class="mdi mdi-delete btn-icon-prepend"></i>
                         Excluir
                     </a>
 
-                    <a href= "<?php echo site_url("admin/produtos"); ?>"class="btn btn-light  m2-2 text-dark btn-sm">
+                    <a href= "<?php echo site_url("admin/produtos"); ?>"class="btn btn-light mt-2 m2-2 text-dark btn-sm">
                         <i class="mdi mdi mdi-keyboard-return btn-icon-prepend"></i>
                         Voltar
                     </a>

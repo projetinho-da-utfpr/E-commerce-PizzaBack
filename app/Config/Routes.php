@@ -6,6 +6,9 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 $routes->get('/', 'Home::index');
+$routes->get('produtos','ProdutoWeb::index');
+$routes->get('imagem','ProdutoWeb::imagem');
+
 $routes->get('login', 'Login::novo',['filter' => 'visitante']);
 $routes->group('admin',function($routes){
     $routes->add('formas','Admin\FormasPagamento::index');

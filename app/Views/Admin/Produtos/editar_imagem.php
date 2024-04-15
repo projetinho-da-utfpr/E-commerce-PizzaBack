@@ -37,29 +37,27 @@
             
             <?php endif; ?>
                 
-            <?php echo form_open_multipart("admin/produtos/upload/$produto->id");?>
-
-                <div class="form-group mb-5">
-                      <label>Imagem</label>
-                      <input type="file" name="foto_produto" class="file-upload-default">
-                    <div class="input-group col-xs-12">
-                        <input type="text" class="form-control file-upload-info" disabled placeholder="Escolha uma Imagem">
-                        <span class="input-group-append">
-                          <button class="file-upload-browse btn btn-outline-info btn-icon-text" type="button">Upload</button>
-                        </span>
-                    </div>
-                </div>
-                <button type="submit" class="btn btn-secondary mr-2 btn-sm">
-                    <i class="mdi mdi-checkbox-marked-circle btn-icon-prepend"></i>
-                        Salvar
-                </button>
-
-                <a href= "<?php echo site_url("admin/produtos/show/$produto->id"); ?>"class="btn btn-light text-dark btn-sm">
-                    <i class="mdi mdi mdi-keyboard-return btn-icon-prepend"></i>
-                         Voltar
-                </a>
-                   
-            <?php echo form_close();?>
+            <!-- Seu arquivo de visualização -->
+<?php echo form_open_multipart("admin/produtos/uploadFoto/$produto->id"); ?>
+    <div class="form-group mb-5">
+        <label>Imagem</label>
+        <input type="file" name="foto_produto" class="file-upload-default">
+        <div class="input-group col-xs-12">
+            <input type="text" class="form-control file-upload-info" disabled placeholder="Escolha uma Imagem">
+            <span class="input-group-append">
+                <button class="file-upload-browse btn btn-outline-info btn-icon-text" type="button">Upload</button>
+            </span>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-secondary mr-2 btn-sm">
+        <i class="mdi mdi-checkbox-marked-circle btn-icon-prepend"></i>
+        Salvar
+    </button>
+    <a href="<?php echo site_url("admin/produtos/show/$produto->id"); ?>" class="btn btn-light text-dark btn-sm">
+        <i class="mdi mdi mdi-keyboard-return btn-icon-prepend"></i>
+        Voltar
+    </a>
+<?php echo form_close(); ?>
 
             </div>
         </div>
