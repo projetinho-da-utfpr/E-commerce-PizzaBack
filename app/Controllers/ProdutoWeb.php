@@ -36,19 +36,23 @@ class ProdutoWeb extends ResourceController
      * @return mixed
      */
     public function imagem(string $imagem = null){
-        if($imagem){
-            $caminhoImagem = WRITEPATH . 'uploads/produtos/' . $imagem;
+        // Caminho para a pasta onde as imagens estão armazenadas
+        $caminho = WRITEPATH . 'uploads/produtos/';
 
-            $infoImagem = new \finfo(FILEINFO_MIME);
+        // Verificar se o arquivo existe
+        if (file_exists($caminho . $imagem)) {
+            // Obter o tipo de conteúdo da imagem
+            $tipoConteudo = mime_content_type($caminho . $imagem);
 
-            $tipoImagem = $infoImagem->file($caminhoImagem);
+            // Definir o tipo de conteúdo da resposta como imagem
+            header('Content-Type: ' . $tipoConteudo);
 
-            header("Content-Type: $tipoImagem");
-            header("Content-Length: ".filesize($caminhoImagem));
-
-            readfile($caminhoImagem);
-
-            exit;
+            // Exibir a imagem
+            readfile($caminho . $imagem);
+        } else {
+            // Se a imagem não for encontrada, exibir uma imagem padrão ou retornar um erro
+            // Exemplo: echo file_get_contents('caminho/para/imagem_padrao.jpg');
+            echo "Imagem não encontrada";
         }
     }
 
@@ -57,48 +61,4 @@ class ProdutoWeb extends ResourceController
      *
      * @return mixed
      */
-    public function new()
-    {
-        //
     }
-
-    /**
-     * Create a new resource object, from "posted" parameters
-     *
-     * @return mixed
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
-     * Return the editable properties of a resource object
-     *
-     * @return mixed
-     */
-    public function edit($id = null)
-    {
-        //
-    }
-
-    /**
-     * Add or update a model resource, from "posted" properties
-     *
-     * @return mixed
-     */
-    public function update($id = null)
-    {
-        //
-    }
-
-    /**
-     * Delete the designated resource object from the model
-     *
-     * @return mixed
-     */
-    public function delete($id = null)
-    {
-        //
-    }
-}

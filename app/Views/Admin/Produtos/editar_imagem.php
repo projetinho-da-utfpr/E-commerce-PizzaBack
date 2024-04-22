@@ -38,7 +38,7 @@
             <?php endif; ?>
                 
             <!-- Seu arquivo de visualização -->
-<?php echo form_open_multipart("admin/produtos/uploadFoto/$produto->id"); ?>
+<?php echo form_open_multipart("admin/produtos/upload/$produto->id"); ?>
     <div class="form-group mb-5">
         <label>Imagem</label>
         <input type="file" name="foto_produto" class="file-upload-default">

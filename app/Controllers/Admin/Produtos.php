@@ -261,30 +261,6 @@ class Produtos extends BaseController
         return redirect()->to(site_url("admin/produtos/show/$produto->id"))->with('sucesso','Imagem alterada com sucesso');
     }
 
-    public function uploadFoto($produtoId)
-    {
-        // Verifique se a requisição contém um arquivo de upload
-        if ($this->request->getFile('foto_produto')) {
-            $foto = $this->request->getFile('foto_produto');
-
-            // Gere um novo nome para a foto para evitar conflitos de nome
-            $novoNome = $foto->getRandomName();
-
-            // Movendo o arquivo para a pasta public
-            $foto->move(ROOTPATH . 'c:\ProjetoPI\PIFront\public\images\\', $novoNome);
-
-            // Aqui você pode salvar o nome do arquivo no banco de dados ou realizar outras operações necessárias
-            // Exemplo: salvarNomeNoBanco($novoNome);
-
-            // Redirecionar de volta para a página do produto
-            return redirect()->to("/admin/produtos/show/$produtoId")->with('success', 'Foto carregada com sucesso!');
-        } else {
-            // Se nenhum arquivo foi enviado, redirecionar de volta para a página do produto com uma mensagem de erro
-            return redirect()->to("/admin/produtos/show/$produtoId")->with('error', 'Nenhuma foto foi carregada!');
-        }
-    }
-
-
 
 
     public function imagem (string $imagem = null){
