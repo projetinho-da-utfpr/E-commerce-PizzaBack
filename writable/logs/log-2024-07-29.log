@@ -1,0 +1,47 @@
+CRITICAL - 2024-07-29 14:47:05 --> Arquivo inválido: Home/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/index.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('Home/index', [], true)
+ 3 APPPATH\Controllers\Home.php(21): view('Home/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+INFO - 2024-07-29 14:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 14:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 14:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 14:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 14:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-29 14:48:23 --> finfo::file(C:\xampp\htdocs\E-commerce-PizzaBack\writable\uploads/produtos/1712692013_a81b0813dae9cc1f3620.jpg): failed to open stream: No such file or directory
+in APPPATH\Controllers\Admin\Produtos.php on line 272.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo::file(C:\\xampp\\htdocs\\E-commerce-PizzaBack\\writable\\uploads/produtos/1712692013_a81b0813dae9cc1f3620.jpg): failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\E-commerce-PizzaBack\\app\\Controllers\\Admin\\Produtos.php', 272, [...])
+ 2 APPPATH\Controllers\Admin\Produtos.php(272): finfo->file('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\writable\\uploads/produtos/1712692013_a81b0813dae9cc1f3620.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produtos->imagem('1712692013_a81b0813dae9cc1f3620.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+INFO - 2024-07-29 14:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 14:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-29 14:48:24 --> finfo::file(C:\xampp\htdocs\E-commerce-PizzaBack\writable\uploads/produtos/1712692434_9c763cf6e1aec51ed7b3.jpg): failed to open stream: No such file or directory
+in APPPATH\Controllers\Admin\Produtos.php on line 272.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo::file(C:\\xampp\\htdocs\\E-commerce-PizzaBack\\writable\\uploads/produtos/1712692434_9c763cf6e1aec51ed7b3.jpg): failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\E-commerce-PizzaBack\\app\\Controllers\\Admin\\Produtos.php', 272, [...])
+ 2 APPPATH\Controllers\Admin\Produtos.php(272): finfo->file('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\writable\\uploads/produtos/1712692434_9c763cf6e1aec51ed7b3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produtos->imagem('1712692434_9c763cf6e1aec51ed7b3.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+INFO - 2024-07-29 14:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-29 14:48:24 --> finfo::file(C:\xampp\htdocs\E-commerce-PizzaBack\writable\uploads/produtos/1712692288_8dae5898136710f14694.jpg): failed to open stream: No such file or directory
+in APPPATH\Controllers\Admin\Produtos.php on line 272.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo::file(C:\\xampp\\htdocs\\E-commerce-PizzaBack\\writable\\uploads/produtos/1712692288_8dae5898136710f14694.jpg): failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\E-commerce-PizzaBack\\app\\Controllers\\Admin\\Produtos.php', 272, [...])
+ 2 APPPATH\Controllers\Admin\Produtos.php(272): finfo->file('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\writable\\uploads/produtos/1712692288_8dae5898136710f14694.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Admin\Produtos->imagem('1712692288_8dae5898136710f14694.jpg')
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Produtos))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+INFO - 2024-07-29 14:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-29 14:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

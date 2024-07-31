@@ -19,7 +19,7 @@
 
 <?php echo $this->section('conteudo'); ?>
 <div class="row">
-    <div class="col-lg-12 grid-margin stretch-card">
+    <div class="col-lg-8 grid-margin stretch-card">
         <div class="card">
             <div class="card-header bg-secondary pb-0 pt-4">
                 <h4 class="card-title text-white"><?php echo esc($titulo); ?></h4>
@@ -37,12 +37,11 @@
             
             <?php endif; ?>
                 
-            <?php echo form_open("admin/usuarios/cadastrar");?>
+            <?php echo form_open("admin/pedidos/atualizar/$pedido->id");?>
 
                 
-                <?php echo $this->include('Admin/Usuarios/form'); ?>
-
-                <a href= "<?php echo site_url("admin/usuarios"); ?>"class="btn btn-light text-dark btn-sm">
+                <?php echo $this->include('Admin/Pedidos/form'); ?>
+                <a href= "<?php echo site_url("admin/pedidos/show/$pedido->id"); ?>"class="btn btn-light text-dark btn-sm">
                     <i class="mdi mdi mdi-keyboard-return btn-icon-prepend"></i>
                          Voltar
                 </a>
