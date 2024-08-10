@@ -1,0 +1,42 @@
+ERROR - 2024-08-10 14:50:26 --> mysqli_sql_exception: Unknown column 'produtos_especificacoes.outra_coluna_que_vc_precisar' in 'field list' in C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `produto...', 0)
+#1 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `produto...')
+#2 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `produto...')
+#3 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `produto...', Array, false)
+#4 C:\xampp\htdocs\E-commerce-PizzaBack\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\E-commerce-PizzaBack\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\E-commerce-PizzaBack\app\Models\ProdutoModel.php(94): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\E-commerce-PizzaBack\app\Controllers\ProdutoWeb.php(27): App\Models\ProdutoModel->buscaProdutosWebHome()
+#8 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(919): App\Controllers\ProdutoWeb->index()
+#9 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdutoWeb))
+#10 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\E-commerce-PizzaBack\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\E-commerce-PizzaBack\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-08-10 14:50:26 --> Unknown column 'produtos_especificacoes.outra_coluna_que_vc_precisar' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `produtos`.`id`, `produtos`.`nome`, `produtos`.`ingredientes`, `produtos`.`slug`, `produtos`.`imagem`, `categorias`.`id` AS `categoria_id`, `categorias`.`nome` AS `categoria`, `categorias`.`slug` AS `categoria_slug`, `produtos_especificacoes`.`preco`, `produtos_especificacoes`.`outra_coluna_que_vc_precisar`
+FROM `produtos`
+JOIN `categorias` ON `categorias`.`id` = `produtos`.`categoria_id`
+JOIN `produtos_especificacoes` ON `produtos_especificacoes`.`produto_id` = `produtos`.`id`
+WHERE `produtos`.`ativo` = :produtos.ativo:
+AND `produtos`.`deletado_em` IS NULL
+ORDER BY `categorias`.`nome` ASC', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ProdutoModel.php(94): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\ProdutoWeb.php(27): App\Models\ProdutoModel->buscaProdutosWebHome()
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProdutoWeb->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdutoWeb))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+CRITICAL - 2024-08-10 14:59:29 --> Cannot use object of type App\Entities\Produto as array
+in APPPATH\Models\ProdutoModel.php on line 103.
+ 1 APPPATH\Controllers\ProdutoWeb.php(27): App\Models\ProdutoModel->buscaProdutosWebHome()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProdutoWeb->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdutoWeb))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')

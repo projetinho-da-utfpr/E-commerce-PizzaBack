@@ -74,23 +74,114 @@ class ProdutoModel extends Model
                                     ->update();
     }
 
-    public function buscaProdutosWebHome(){
-        return $this->select([
-            'produtos.id',
-            'produtos.nome',
-            'produtos.ingredientes',
-            'produtos.slug',
-            'produtos.imagem',
-            'categorias.id AS categoria_id',
-            'categorias.nome AS categoria',
-            'categorias.slug As categoria_slug',
-        ])
-        ->selectMin('produtos_especificacoes.preco')
-        ->join('categorias','categorias.id = produtos.categoria_id')
-        ->join('produtos_especificacoes','produtos_especificacoes.produto_id = produtos.id')
-        ->where('produtos.ativo',true)
-        ->groupBy('produtos.nome')
-        ->orderBy('categorias.nome','ASC')
-        ->findAll();
+    public function buscaProdutosWebHome() {
+        // Executa a consulta para buscar os dados
+        $resultados = $this->select([
+                'produtos.id',
+                'produtos.nome',
+                'produtos.ingredientes',
+                'produtos.slug',
+                'produtos.imagem',
+                'categorias.id AS categoria_id',
+                'categorias.nome AS categoria',
+                'categorias.slug AS categoria_slug',
+                'medidas.nome AS medida', // Supondo que "nome" seja a coluna para o nome da medida
+                'produtos_especificacoes.preco',
+            ])
+            ->join('categorias', 'categorias.id = produtos.categoria_id')
+            ->join('produtos_especificacoes', 'produtos_especificacoes.produto_id = produtos.id')
+            ->join('medidas', 'medidas.id = produtos_especificacoes.medida_id') // Supondo que "medida_id" seja a coluna de referência
+            ->where('produtos.ativo', true)
+            ->orderBy('categorias.nome', 'ASC')
+            ->orderBy('produtos.id', 'ASC')  // Ordena por produto para facilitar a visualização
+            ->findAll();
+    
+        // Processa os resultados para agrupar as medidas e preços por produto
+        $produtosAgrupados = [];
+        
+        foreach ($resultados as $produto) {
+            $produtoId = $produto->id;
+            
+            // Se o produto ainda não foi adicionado ao array agrupado, inicializa com as informações básicas
+            if (!isset($produtosAgrupados[$produtoId])) {
+                $produtosAgrupados[$produtoId] = [
+                    'id' => $produto->id,
+                    'nome' => $produto->nome,
+                    'ingredientes' => $produto->ingredientes,
+                    'slug' => $produto->slug,
+                    'imagem' => $produto->imagem,
+                    'categoria_id' => $produto->categoria_id,
+                    'categoria' => $produto->categoria,
+                    'categoria_slug' => $produto->categoria_slug,
+                    'especificacoes' => [] // Inicializa o array para as medidas e preços
+                ];
+            }
+            
+            // Adiciona a medida e o preço ao array de especificações do produto
+            $produtosAgrupados[$produtoId]['especificacoes'][] = [
+                'medida' => $produto->medida,
+                'preco' => $produto->preco
+            ];
+        }
+    
+        // Retorna os produtos agrupados
+        return array_values($produtosAgrupados); // Retorna como um array numericamente indexado
     }
+
+    public function buscaProdutoPorId($id) {
+        // Executa a consulta para buscar os dados do produto específico
+        $resultados = $this->select([
+                'produtos.id',
+                'produtos.nome',
+                'produtos.ingredientes',
+                'produtos.slug',
+                'produtos.imagem',
+                'categorias.id AS categoria_id',
+                'categorias.nome AS categoria',
+                'categorias.slug AS categoria_slug',
+                'medidas.nome AS medida', // Supondo que "nome" seja a coluna para o nome da medida
+                'produtos_especificacoes.preco',
+            ])
+            ->join('categorias', 'categorias.id = produtos.categoria_id')
+            ->join('produtos_especificacoes', 'produtos_especificacoes.produto_id = produtos.id')
+            ->join('medidas', 'medidas.id = produtos_especificacoes.medida_id') // Supondo que "medida_id" seja a coluna de referência
+            ->where('produtos.ativo', true)
+            ->where('produtos.id', $id) // Filtra pelo ID do produto passado como parâmetro
+            ->orderBy('categorias.nome', 'ASC')
+            ->orderBy('produtos.id', 'ASC')
+            ->findAll();
+    
+        // Processa os resultados para agrupar as medidas e preços por produto
+        $produtoDetalhes = null;
+        
+        if (!empty($resultados)) {
+            // Inicializa o array com as informações básicas do produto
+            $produtoDetalhes = [
+                'id' => $resultados[0]->id,
+                'nome' => $resultados[0]->nome,
+                'ingredientes' => $resultados[0]->ingredientes,
+                'slug' => $resultados[0]->slug,
+                'imagem' => $resultados[0]->imagem,
+                'categoria_id' => $resultados[0]->categoria_id,
+                'categoria' => $resultados[0]->categoria,
+                'categoria_slug' => $resultados[0]->categoria_slug,
+                'especificacoes' => [] // Inicializa o array para as medidas e preços
+            ];
+    
+            // Adiciona as medidas e os preços ao array de especificações do produto
+            foreach ($resultados as $produto) {
+                $produtoDetalhes['especificacoes'][] = [
+                    'medida' => $produto->medida,
+                    'preco' => $produto->preco
+                ];
+            }
+        }
+    
+        // Retorna os detalhes do produto
+        return $produtoDetalhes;
+    }
+    
+    
+    
+    
 }

@@ -8,6 +8,7 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 $routes->get('produtos','ProdutoWeb::index');
 $routes->get('foto/mostrar/(:any)', 'ProdutoWeb::imagem/$1');
+$routes->get('umProduto/(:num)', 'ProdutoWeb::buscaPorId/$1');
 $routes->post('pedidos','Pedidos::index');
 
 $routes->get('login', 'Login::novo',['filter' => 'visitante']);

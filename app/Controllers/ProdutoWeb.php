@@ -30,6 +30,13 @@ class ProdutoWeb extends ResourceController
         return $this->respond($data,200);
     }
 
+    public function buscaPorId($id){
+        $produtoDetalhes = $this->produtoModel->buscaProdutoPorId($id);
+
+        // Retorna os dados para a view ou para uma API
+        return $this->response->setJSON($produtoDetalhes);
+    }
+
     /**
      * Return the properties of a resource object
      *
