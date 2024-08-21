@@ -87,6 +87,7 @@ class ProdutoModel extends Model
                 'categorias.slug AS categoria_slug',
                 'medidas.nome AS medida', // Supondo que "nome" seja a coluna para o nome da medida
                 'produtos_especificacoes.preco',
+                'produtos_especificacoes.customizavel' // Seleciona se o produto é customizável
             ])
             ->join('categorias', 'categorias.id = produtos.categoria_id')
             ->join('produtos_especificacoes', 'produtos_especificacoes.produto_id = produtos.id')
@@ -117,16 +118,18 @@ class ProdutoModel extends Model
                 ];
             }
             
-            // Adiciona a medida e o preço ao array de especificações do produto
+            // Adiciona a medida, o preço e a informação de customização ao array de especificações do produto
             $produtosAgrupados[$produtoId]['especificacoes'][] = [
                 'medida' => $produto->medida,
-                'preco' => $produto->preco
+                'preco' => $produto->preco,
+                'customizavel' => $produto->customizavel
             ];
         }
     
         // Retorna os produtos agrupados
         return array_values($produtosAgrupados); // Retorna como um array numericamente indexado
     }
+    
 
     public function buscaProdutoPorId($id) {
         // Executa a consulta para buscar os dados do produto específico
@@ -141,6 +144,7 @@ class ProdutoModel extends Model
                 'categorias.slug AS categoria_slug',
                 'medidas.nome AS medida', // Supondo que "nome" seja a coluna para o nome da medida
                 'produtos_especificacoes.preco',
+                'produtos_especificacoes.customizavel' // Seleciona se o produto é customizável
             ])
             ->join('categorias', 'categorias.id = produtos.categoria_id')
             ->join('produtos_especificacoes', 'produtos_especificacoes.produto_id = produtos.id')
@@ -168,11 +172,12 @@ class ProdutoModel extends Model
                 'especificacoes' => [] // Inicializa o array para as medidas e preços
             ];
     
-            // Adiciona as medidas e os preços ao array de especificações do produto
+            // Adiciona as medidas, os preços e a informação de customização ao array de especificações do produto
             foreach ($resultados as $produto) {
                 $produtoDetalhes['especificacoes'][] = [
                     'medida' => $produto->medida,
-                    'preco' => $produto->preco
+                    'preco' => $produto->preco,
+                    'customizavel' => $produto->customizavel // Adiciona a informação se é customizável
                 ];
             }
         }
@@ -180,6 +185,7 @@ class ProdutoModel extends Model
         // Retorna os detalhes do produto
         return $produtoDetalhes;
     }
+    
     
     
     

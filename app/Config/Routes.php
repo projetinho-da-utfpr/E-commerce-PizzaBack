@@ -10,6 +10,12 @@ $routes->get('produtos','ProdutoWeb::index');
 $routes->get('foto/mostrar/(:any)', 'ProdutoWeb::imagem/$1');
 $routes->get('umProduto/(:num)', 'ProdutoWeb::buscaPorId/$1');
 $routes->post('pedidos','Pedidos::index');
+$routes->post('clienteNovo','Clientes::cadastrar');
+$routes->get('buscarCliente/(:num)','Clientes::buscarCliente/$1');
+$routes->post('alterarCliente/(:num)','Clientes::alteraDadosCliente/$1');
+$routes->get('pedidosCliente/(:num)','Pedidos::ultimosPedidos/$1');
+$routes->post('clienteLogin','LoginCliente::index');
+
 
 $routes->get('login', 'Login::novo',['filter' => 'visitante']);
 $routes->group('admin',function($routes){

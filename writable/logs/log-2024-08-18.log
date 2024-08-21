@@ -1,0 +1,18 @@
+INFO - 2024-08-18 16:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-18 16:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-18 16:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-18 16:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-18 17:55:10 --> Undefined index: email
+in APPPATH\Controllers\Clientes.php on line 20.
+ 1 APPPATH\Controllers\Clientes.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: email', 'C:\\xampp\\htdocs\\E-commerce-PizzaBack\\app\\Controllers\\Clientes.php', 20, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+CRITICAL - 2024-08-18 18:02:32 --> Class 'App\Entities\Clientes' not found
+in SYSTEMPATH\Database\MySQLi\Result.php on line 154.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-08-18 18:04:10 --> Class 'App\Entities\Clientes' not found
+in SYSTEMPATH\Database\MySQLi\Result.php on line 154.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()

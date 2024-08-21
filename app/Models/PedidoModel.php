@@ -9,7 +9,7 @@ class PedidoModel extends Model
     protected $table            = 'pedidos';
     protected $returnType       = 'App\Entities\Pedido';
     protected $useSoftDeletes   = true;
-    protected $allowedFields = ['nome', 'cliente', 'endereco', 'ingredientes', 'preco'];
+    protected $allowedFields = ['produtos', 'cliente_id', 'endereco', 'customizavel','status', 'total','quantidade'];
 
     // Dates
     protected $useTimestamps = true;
@@ -35,5 +35,17 @@ class PedidoModel extends Model
         return $this->protect(false)->where('id',$id)
                                     ->set('deletado_em',null)
                                     ->update();
+    }
+    public function buscaUltimosPedidos($clienteId)
+    {
+        // Verifica se o ID do cliente é fornecido
+        if (empty($clienteId)) {
+            return [];
+        }
+
+        return $this->select('total, quantidade, produtos, customizavel, status')
+                    ->where('cliente_id', $clienteId)
+                    ->orderBy('criado_em', 'DESC') // Ordena pelos pedidos mais recentes
+                    ->findAll(5); // Limita o resultado aos últimos 5 pedidos
     }
 }

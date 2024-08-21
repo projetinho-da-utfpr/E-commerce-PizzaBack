@@ -1,0 +1,149 @@
+ERROR - 2024-08-19 16:43:10 --> mysqli_sql_exception: Can't create table `itaipu`.`pedidos` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\E-commerce-PizzaBack\app\Database\Migrations\2024-07-31-131737_CriaTabelaPedidos.php(58): CodeIgniter\Database\Forge->createTable('pedidos')
+#5 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MigrationRunner.php(877): App\Database\Migrations\CriaTabelaPedidos->up()
+#6 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\E-commerce-PizzaBack\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\E-commerce-PizzaBack\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\E-commerce-PizzaBack\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\E-commerce-PizzaBack\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-08-19 16:44:15 --> mysqli_sql_exception: Can't create table `itaipu`.`pedidos` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\E-commerce-PizzaBack\app\Database\Migrations\2024-07-31-131737_CriaTabelaPedidos.php(58): CodeIgniter\Database\Forge->createTable('pedidos')
+#5 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MigrationRunner.php(877): App\Database\Migrations\CriaTabelaPedidos->up()
+#6 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\E-commerce-PizzaBack\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\E-commerce-PizzaBack\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\E-commerce-PizzaBack\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\E-commerce-PizzaBack\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-08-19 16:46:15 --> mysqli_sql_exception: Can't create table `itaipu`.`pedidos` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\E-commerce-PizzaBack\app\Database\Migrations\2024-07-31-131737_CriaTabelaPedidos.php(58): CodeIgniter\Database\Forge->createTable('pedidos')
+#5 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MigrationRunner.php(877): App\Database\Migrations\CriaTabelaPedidos->up()
+#6 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\E-commerce-PizzaBack\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\E-commerce-PizzaBack\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\E-commerce-PizzaBack\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\E-commerce-PizzaBack\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-08-19 16:46:59 --> mysqli_sql_exception: Can't create table `itaipu`.`pedidos` (errno: 150 "Foreign key constraint is incorrectly formed") in C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php(306): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\Forge.php(546): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\xampp\htdocs\E-commerce-PizzaBack\app\Database\Migrations\2024-07-31-131737_CriaTabelaPedidos.php(58): CodeIgniter\Database\Forge->createTable('pedidos')
+#5 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MigrationRunner.php(877): App\Database\Migrations\CriaTabelaPedidos->up()
+#6 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MigrationRunner.php(188): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\xampp\htdocs\E-commerce-PizzaBack\system\Commands\Database\Migrate.php(84): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\xampp\htdocs\E-commerce-PizzaBack\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\xampp\htdocs\E-commerce-PizzaBack\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\xampp\htdocs\E-commerce-PizzaBack\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+ERROR - 2024-08-19 16:51:16 --> mysqli_sql_exception: Unknown column 'nome' in 'field list' in C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\E-commerce-PizzaBack\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\E-commerce-PizzaBack\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\E-commerce-PizzaBack\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\E-commerce-PizzaBack\app\Controllers\Pedidos.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(919): App\Controllers\Pedidos->index()
+#9 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#10 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\E-commerce-PizzaBack\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\E-commerce-PizzaBack\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-08-19 16:51:16 --> Unknown column 'nome' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pedidos` (`nome`, `cliente`, `endereco`, `ingredientes`, `preco`, `criado_em`, `atualizado_em`) VALUES (:nome:, :cliente:, :endereco:, :ingredientes:, :preco:, :criado_em:, :atualizado_em:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Pedidos.php(43): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedidos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+CRITICAL - 2024-08-19 17:05:26 --> Call to undefined method App\Models\ClienteModel::buscaclientePorEmail
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Clientes.php(26): CodeIgniter\Model->__call('buscaclientePorEmail', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->cadastrar()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+DEBUG - 2024-08-19 18:30:06 --> Dados recebidos: {"id_cliente":"2","status":"pendente","total":"50,00","produtos":"Pizza de Calabresa","quantidade":"1","customizavel":"Pizza de frango catupiry"}
+CRITICAL - 2024-08-19 18:30:06 --> Cannot use object of type App\Entities\Produto as array
+in APPPATH\Controllers\Pedidos.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedidos->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+ERROR - 2024-08-19 18:35:41 --> mysqli_sql_exception: Unknown column 'id_cliente' in 'field list' in C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\E-commerce-PizzaBack\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\E-commerce-PizzaBack\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\E-commerce-PizzaBack\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\E-commerce-PizzaBack\app\Controllers\Pedidos.php(65): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(919): App\Controllers\Pedidos->index()
+#9 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#10 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\E-commerce-PizzaBack\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\E-commerce-PizzaBack\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-08-19 18:35:41 --> Unknown column 'id_cliente' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pedidos` (`id_cliente`, `customizavel`, `quantidade`, `total`, `criado_em`, `atualizado_em`) VALUES (:id_cliente:, :customizavel:, :quantidade:, :total:, :criado_em:, :atualizado_em:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Pedidos.php(65): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedidos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+CRITICAL - 2024-08-19 19:14:36 --> Cannot use object of type App\Entities\Cliente as array
+in APPPATH\Controllers\Clientes.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->alteraDadosCliente('2')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+CRITICAL - 2024-08-19 19:16:48 --> Cannot use object of type App\Entities\Cliente as array
+in APPPATH\Controllers\Clientes.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->alteraDadosCliente('2')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+CRITICAL - 2024-08-19 19:17:22 --> Cannot use object of type App\Entities\Cliente as array
+in APPPATH\Controllers\Clientes.php on line 86.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Clientes->alteraDadosCliente('2')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')

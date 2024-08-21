@@ -10,59 +10,73 @@ class CriaTabelaPedidos extends Migration
     {
         $this->forge->addField([
             'id' => [
-                'type'=>'INT',
-                'constraint' => 5,
+                'type' => 'INT',
+                'constraint' => 11,
                 'unsigned' => true,
                 'auto_increment' => true,
             ],
-            'nome' =>[
-                'type' => 'VARCHAR',
-                'constraint' => '128',
-            ],
-            'cliente' =>[
-                'type' => 'VARCHAR',
-                'constraint' => '128',
+            'cliente_id' => [
+                'type' => 'INT',
+                'constraint' => 11,
+                'unsigned' => true,
             ],
             'endereco' =>[
                 'type' => 'VARCHAR',
                 'constraint' => '240',
             ],
-            'ingredientes' =>[
-                'type' => 'TEXT',
+            'status' => [
+                'type' => 'VARCHAR',
+                'constraint' => '50',
+                'default' => 'Pendente', // Exemplo de status: 'Pendente', 'Em andamento', 'Concluído'
+                'null' => false,
             ],
-            'preco' =>[
+            'total' => [
                 'type' => 'DECIMAL',
                 'constraint' => '10,2',
-            ],
-            'ativo' =>[
-                'type' => 'BOOLEAN',
                 'null' => false,
-                'default' => true,
             ],
-            'criado_em' =>[
+	        'produtos' =>[
+                'type' => 'VARCHAR',
+                'constraint' => '128',
+            ],
+	        'quantidade' => [
+                'type' => 'INT',
+                'constraint' => 11,
+                'unsigned' => true,
+            ],
+	        'customizavel' =>[
+                'type' => 'TEXT',
+            ],
+            'criado_em' => [
                 'type' => 'DATETIME',
                 'null' => true,
                 'default' => null,
             ],
-            'atualizado_em' =>[
+            'atualizado_em' => [
                 'type' => 'DATETIME',
                 'null' => true,
                 'default' => null,
             ],
-            'deletado_em' =>[
+            'deletado_em' => [
                 'type' => 'DATETIME',
                 'null' => true,
                 'default' => null,
             ],
         ]);
 
-        $this->forge->addPrimaryKey('id')->addUniqueKey('nome');
+        // Chave primária
+        $this->forge->addPrimaryKey('id');
 
+        // Chave estrangeira para referenciar a tabela de clientes
+        $this->forge->addForeignKey('cliente_id', 'clientes', 'id', 'CASCADE', 'CASCADE');
+
+        // Cria a tabela
         $this->forge->createTable('pedidos');
     }
 
     public function down()
     {
+        // Remove a tabela
         $this->forge->dropTable('pedidos');
     }
 }

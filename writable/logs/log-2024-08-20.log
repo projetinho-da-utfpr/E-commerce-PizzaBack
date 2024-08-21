@@ -1,0 +1,288 @@
+CRITICAL - 2024-08-20 16:16:14 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+in APPPATH\Controllers\Clientes.php on line 118.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\app\\Controllers\\Clientes.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Clientes')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Clientes')
+ 4 [internal function]: spl_autoload_call('App\\Controllers\\Clientes')
+ 5 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\Clientes', true)
+ 6 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+INFO - 2024-08-20 16:16:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 16:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 16:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-20 16:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2024-08-20 16:25:17 --> Dados Recebidos: Array
+(
+    [nome] => lucas angelo Farias
+    [endereco] => rua das pika,536
+)
+
+DEBUG - 2024-08-20 16:25:17 --> Dados do Cliente: App\Entities\Cliente Object
+(
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [datamap:protected] => Array
+        (
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [int-bool] => CodeIgniter\Entity\Cast\IntBoolCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 2
+            [nome] => Lucas Angelo
+            [email] => lucas@gmail.com
+            [cpf] => 436.433.078-70
+            [telefone] => 44998040796
+            [endereco] => rua das seringueiras,943
+            [ativo] => 1
+            [password_hash] => $2y$10$P.5WvmKaFP858Rvw0.iWNOVzbR2fvqo8PqR9u/H7kB/Oo.oV8EaQi
+            [ativação_hash] => 
+            [reset_hash] => 
+            [reset_expira_em] => 
+            [criado_em] => 2024-08-19 17:08:54
+            [atualizado_em] => 2024-08-19 17:08:54
+            [deletado_em] => 
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 2
+            [nome] => Lucas Angelo
+            [email] => lucas@gmail.com
+            [cpf] => 436.433.078-70
+            [telefone] => 44998040796
+            [endereco] => rua das seringueiras,943
+            [ativo] => 1
+            [password_hash] => $2y$10$P.5WvmKaFP858Rvw0.iWNOVzbR2fvqo8PqR9u/H7kB/Oo.oV8EaQi
+            [ativação_hash] => 
+            [reset_hash] => 
+            [reset_expira_em] => 
+            [criado_em] => 2024-08-19 17:08:54
+            [atualizado_em] => 2024-08-19 17:08:54
+            [deletado_em] => 
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+DEBUG - 2024-08-20 16:27:23 --> Dados Recebidos: Array
+(
+    [nome] => lucas angelo Farias
+    [endereco] => rua das pika,536
+)
+
+DEBUG - 2024-08-20 16:27:23 --> Dados do Cliente: App\Entities\Cliente Object
+(
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [datamap:protected] => Array
+        (
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [int-bool] => CodeIgniter\Entity\Cast\IntBoolCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 2
+            [nome] => Lucas Angelo
+            [email] => lucas@gmail.com
+            [cpf] => 436.433.078-70
+            [telefone] => 44998040796
+            [endereco] => rua das seringueiras,943
+            [ativo] => 1
+            [password_hash] => $2y$10$P.5WvmKaFP858Rvw0.iWNOVzbR2fvqo8PqR9u/H7kB/Oo.oV8EaQi
+            [ativação_hash] => 
+            [reset_hash] => 
+            [reset_expira_em] => 
+            [criado_em] => 2024-08-19 17:08:54
+            [atualizado_em] => 2024-08-19 17:08:54
+            [deletado_em] => 
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 2
+            [nome] => Lucas Angelo
+            [email] => lucas@gmail.com
+            [cpf] => 436.433.078-70
+            [telefone] => 44998040796
+            [endereco] => rua das seringueiras,943
+            [ativo] => 1
+            [password_hash] => $2y$10$P.5WvmKaFP858Rvw0.iWNOVzbR2fvqo8PqR9u/H7kB/Oo.oV8EaQi
+            [ativação_hash] => 
+            [reset_hash] => 
+            [reset_expira_em] => 
+            [criado_em] => 2024-08-19 17:08:54
+            [atualizado_em] => 2024-08-19 17:08:54
+            [deletado_em] => 
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+DEBUG - 2024-08-20 16:42:47 --> Dados recebidos: Array
+(
+    [nome] => lucas angelo Farias
+    [endereco] => rua das pika,536
+)
+
+DEBUG - 2024-08-20 16:42:47 --> Cliente encontrado: App\Entities\Cliente Object
+(
+    [dates:protected] => Array
+        (
+            [0] => criado_em
+            [1] => atualizado_em
+            [2] => deletado_em
+        )
+
+    [datamap:protected] => Array
+        (
+        )
+
+    [casts:protected] => Array
+        (
+        )
+
+    [castHandlers:protected] => Array
+        (
+        )
+
+    [defaultCastHandlers:CodeIgniter\Entity\Entity:private] => Array
+        (
+            [array] => CodeIgniter\Entity\Cast\ArrayCast
+            [bool] => CodeIgniter\Entity\Cast\BooleanCast
+            [boolean] => CodeIgniter\Entity\Cast\BooleanCast
+            [csv] => CodeIgniter\Entity\Cast\CSVCast
+            [datetime] => CodeIgniter\Entity\Cast\DatetimeCast
+            [double] => CodeIgniter\Entity\Cast\FloatCast
+            [float] => CodeIgniter\Entity\Cast\FloatCast
+            [int] => CodeIgniter\Entity\Cast\IntegerCast
+            [integer] => CodeIgniter\Entity\Cast\IntegerCast
+            [int-bool] => CodeIgniter\Entity\Cast\IntBoolCast
+            [json] => CodeIgniter\Entity\Cast\JsonCast
+            [object] => CodeIgniter\Entity\Cast\ObjectCast
+            [string] => CodeIgniter\Entity\Cast\StringCast
+            [timestamp] => CodeIgniter\Entity\Cast\TimestampCast
+            [uri] => CodeIgniter\Entity\Cast\URICast
+        )
+
+    [attributes:protected] => Array
+        (
+            [id] => 2
+            [nome] => Lucas Angelo
+            [email] => lucas@gmail.com
+            [cpf] => 436.433.078-70
+            [telefone] => 44998040796
+            [endereco] => rua das seringueiras,943
+            [ativo] => 1
+            [password_hash] => $2y$10$P.5WvmKaFP858Rvw0.iWNOVzbR2fvqo8PqR9u/H7kB/Oo.oV8EaQi
+            [ativação_hash] => 
+            [reset_hash] => 
+            [reset_expira_em] => 
+            [criado_em] => 2024-08-19 17:08:54
+            [atualizado_em] => 2024-08-19 17:08:54
+            [deletado_em] => 
+        )
+
+    [original:protected] => Array
+        (
+            [id] => 2
+            [nome] => Lucas Angelo
+            [email] => lucas@gmail.com
+            [cpf] => 436.433.078-70
+            [telefone] => 44998040796
+            [endereco] => rua das seringueiras,943
+            [ativo] => 1
+            [password_hash] => $2y$10$P.5WvmKaFP858Rvw0.iWNOVzbR2fvqo8PqR9u/H7kB/Oo.oV8EaQi
+            [ativação_hash] => 
+            [reset_hash] => 
+            [reset_expira_em] => 
+            [criado_em] => 2024-08-19 17:08:54
+            [atualizado_em] => 2024-08-19 17:08:54
+            [deletado_em] => 
+        )
+
+    [_cast:CodeIgniter\Entity\Entity:private] => 1
+)
+
+DEBUG - 2024-08-20 16:42:47 --> Campo não encontrado: nome
+DEBUG - 2024-08-20 16:42:47 --> Campo não encontrado: endereco
+DEBUG - 2024-08-20 17:09:21 --> Dados recebidos: Array
+(
+    [nome] => lucas angelo Farias
+    [endereco] => rua das pika,536
+)
+
+DEBUG - 2024-08-20 17:09:21 --> Campo não encontrado: nome
+DEBUG - 2024-08-20 17:09:21 --> Campo não encontrado: endereco
+DEBUG - 2024-08-20 17:09:21 --> Nenhuma alteração detectada.
+DEBUG - 2024-08-20 17:10:35 --> Dados recebidos: Array
+(
+    [nome] => lucas angelo Farias
+)
+
+DEBUG - 2024-08-20 17:10:36 --> Campo não encontrado: nome
+DEBUG - 2024-08-20 17:10:36 --> Nenhuma alteração detectada.
