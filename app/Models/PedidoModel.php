@@ -9,7 +9,7 @@ class PedidoModel extends Model
     protected $table            = 'pedidos';
     protected $returnType       = 'App\Entities\Pedido';
     protected $useSoftDeletes   = true;
-    protected $allowedFields = ['produtos', 'cliente_id', 'endereco', 'customizavel','status', 'total','quantidade'];
+    protected $allowedFields = ['produtos', 'cliente_id', 'endereco', 'customizavel','status', 'total','quantidade','medida_id','customizavel_id','customizavelDois_id','customizavelTres_id'];
 
     // Dates
     protected $useTimestamps = true;

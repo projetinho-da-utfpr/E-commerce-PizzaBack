@@ -20,14 +20,14 @@ class CriaTabelaPedidos extends Migration
                 'constraint' => 11,
                 'unsigned' => true,
             ],
-            'endereco' =>[
+            'endereco' => [
                 'type' => 'VARCHAR',
                 'constraint' => '240',
             ],
             'status' => [
                 'type' => 'VARCHAR',
                 'constraint' => '50',
-                'default' => 'Pendente', // Exemplo de status: 'Pendente', 'Em andamento', 'Concluído'
+                'default' => 'Pendente',
                 'null' => false,
             ],
             'total' => [
@@ -35,17 +35,36 @@ class CriaTabelaPedidos extends Migration
                 'constraint' => '10,2',
                 'null' => false,
             ],
-	        'produtos' =>[
+            'produtos' => [
                 'type' => 'VARCHAR',
                 'constraint' => '128',
             ],
-	        'quantidade' => [
+            'customizavel_id' => [
                 'type' => 'INT',
                 'constraint' => 11,
                 'unsigned' => true,
+                'null' => true, // Permitir null
             ],
-	        'customizavel' =>[
-                'type' => 'TEXT',
+            'customizavelDois_id' => [
+                'type' => 'INT',
+                'constraint' => 11,
+                'unsigned' => true,
+                'null' => true, // Permitir null
+            ],
+            'customizavelTres_id' => [
+                'type' => 'INT',
+                'constraint' => 11,
+                'unsigned' => true,
+                'null' => true, // Permitir null
+            ],
+            'medida_id' => [
+                'type' => 'INT',
+                'unsigned' => true,
+            ],
+            'quantidade' => [
+                'type' => 'INT',
+                'constraint' => 11,
+                'unsigned' => true,
             ],
             'criado_em' => [
                 'type' => 'DATETIME',
@@ -69,6 +88,12 @@ class CriaTabelaPedidos extends Migration
 
         // Chave estrangeira para referenciar a tabela de clientes
         $this->forge->addForeignKey('cliente_id', 'clientes', 'id', 'CASCADE', 'CASCADE');
+
+        // Chaves estrangeiras para customizáveis e medida
+        $this->forge->addForeignKey('customizavel_id', 'produtos_especificacoes', 'id', 'SET NULL', 'CASCADE');
+        $this->forge->addForeignKey('customizavelDois_id', 'produtos_especificacoes', 'id', 'SET NULL', 'CASCADE');
+        $this->forge->addForeignKey('customizavelTres_id', 'produtos_especificacoes', 'id', 'SET NULL', 'CASCADE');
+        $this->forge->addForeignKey('medida_id', 'medidas', 'id', 'CASCADE', 'CASCADE');
 
         // Cria a tabela
         $this->forge->createTable('pedidos');

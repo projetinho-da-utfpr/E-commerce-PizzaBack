@@ -6,74 +6,85 @@ use CodeIgniter\RESTful\ResourceController;
 use App\Models\PedidoModel;
 use App\Models\ProdutoModel;
 use App\Models\ClienteModel;
+use App\Models\MedidaModel;
+use App\Models\ProdutoEspecificacaoModel;
 
 class Pedidos extends ResourceController
 {
     protected $pedidoModel;
     protected $produtoModel;
     protected $clienteModel;
+    protected $medidaModel;
+    protected $produto_especificacoesModel;
     public function __construct(){
         $this->pedidoModel = new PedidoModel();
         $this->produtoModel = new ProdutoModel();
         $this->clienteModel = new ClienteModel();
+        $this->produto_especificacoesModel = new ProdutoEspecificacaoModel();
+        $this->medidaModel = new MedidaModel();
     }
-    public function index()
+        public function index()
     {
-        // Captura os dados do POST
-        $data = $this->request->getPost();
-        
-        // Se $data estiver vazio, tente capturar dados JSON
+        // Captura os dados do POST ou JSON
+        $data = $this->request->getPost() ?: (array) $this->request->getJSON(true);
+
         if (empty($data)) {
-            $json = $this->request->getJSON();
-            if ($json) {
-                $data = (array) $json;
-            }
-        }
-        if (!empty($data)) {
-            // Verifica se o campo 'id_cliente' está presente nos dados
-            if (!isset($data['cliente_id'])) {
-                return $this->failValidationErrors('O campo "cliente_id" é obrigatório');
-            }
-
-            // Verifica se o produto com o nome especificado existe no banco de dados
-            $existingProduct = $this->produtoModel->where('nome', $data['produtos'])->first();
-            $existingCustom = $this->produtoModel->where('nome', $data['customizavel'])->first();
-            $existingClient = $this->clienteModel->where('id', $data['cliente_id'])->first();
-
-            if (!$existingProduct) {
-                return $this->failValidationErrors('O produto especificado não existe');
-            }
-            if (!$existingClient) {
-                return $this->failValidationErrors('Cliente especificado não existe');
-            }
-            if (!$existingCustom) {
-                return $this->failValidationErrors('O customizável especificado não existe');
-            }
-
-            // Prepara os dados para inserir
-            $pedidoData = [
-                'cliente_id' => $data['cliente_id'],
-                'produtos' => $existingProduct->nome,
-                'endereco' => $existingClient->endereco,
-                'customizavel' => $existingCustom->nome,
-                'quantidade' => $data['quantidade'], // ou outro campo relevante
-                'total' => $data['total'],
-                // adicione outros campos necessários
-            ];
-
-            // Salva os dados no banco de dados
-            try {
-                $this->pedidoModel->insert($pedidoData);
-                // Retorna uma resposta com os dados recebidos e salvos
-                return $this->respondCreated($pedidoData);
-            } catch (\Exception $e) {
-                return $this->failServerError($e->getMessage());
-            }
-        } else {
-            // Retorna uma resposta de erro caso os dados estejam vazios
             return $this->failValidationErrors('Dados vazios');
         }
+
+        // Verifica se campos obrigatórios estão presentes
+        $requiredFields = ['cliente_id', 'medida_id', 'produtos', 'quantidade', 'total','endereco'];
+        foreach ($requiredFields as $field) {
+            if (!isset($data[$field])) {
+                return $this->failValidationErrors("O campo \"$field\" é obrigatório");
+            }
+        }
+
+        // Verifica se o produto, cliente e medida existem no banco de dados
+        $existingProduct = $this->produtoModel->where('nome', $data['produtos'])->first();
+        $existingClient = $this->clienteModel->where('id',$data['cliente_id'])->first();
+        $existingMedida = $this->medidaModel->where('id',$data['medida_id'])->first();
+
+        if (!$existingProduct) {
+            return $this->failValidationErrors('O produto especificado não existe');
+        }
+        if (!$existingClient) {
+            return $this->failValidationErrors('Cliente especificado não existe');
+        }
+        if (!$existingMedida) {
+            return $this->failValidationErrors('A medida selecionada não existe');
+        }
+
+        // Verifica se os customizáveis existem, se foram passados
+        $customizaveisIds = ['customizavel_id', 'customizavelDois_id', 'customizavelTres_id'];
+        foreach ($customizaveisIds as $customizavelId) {
+            if (!empty($data[$customizavelId]) && !$this->produto_especificacoesModel->buscaEspecificacoesProdutoSemPaginacao($data[$customizavelId])) {
+                return $this->failValidationErrors("Customizável não existe: $customizavelId");
+            }
+        }
+
+        // Prepara os dados para inserção
+        $pedidoData = [
+            'cliente_id' => $data['cliente_id'],
+            'produtos' => $existingProduct->nome,
+            'endereco' => $existingClient->endereco,
+            'quantidade' => $data['quantidade'],
+            'total' => $data['total'],
+            'medida_id' =>  $existingMedida->id,
+            'customizavel_id' => $data['customizavel_id'] ?? null,
+            'customizavelDois_id' => $data['customizavelDois_id'] ?? null,
+            'customizavelTres_id' => $data['customizavelTres_id'] ?? null
+        ];
+
+        // Salva os dados no banco de dados
+        try {
+            $this->pedidoModel->insert($pedidoData);
+            return $this->respondCreated($pedidoData);
+        } catch (\Exception $e) {
+            return $this->failServerError($e->getMessage());
+        }
     }
+
 
     public function ultimosPedidos($clienteId = null)
     {

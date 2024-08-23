@@ -72,28 +72,32 @@ class Clientes extends ResourceController
         }
     }
 
-    public function alteraDadosCliente($id = null)
+        public function alteraDadosCliente($id = null)
     {
-        // Obtém os dados enviados pelo usuário como array associativo
+        // Captura os dados do POST ou JSON
         $data = $this->request->getJSON(true); // true para array associativo
 
-        if (empty($data)) {
-            return $this->failValidationErrors('Nenhum dado foi enviado.');
+        // Verifica se o ID do cliente foi fornecido
+        if (is_null($id)) {
+            return $this->failValidationErrors('O ID do cliente é obrigatório');
         }
 
-        // Debug: Mostre os dados recebidos
-        log_message('debug', 'Dados recebidos: ' . print_r($data, true));
+        // Verifica se o cliente existe no banco de dados
+        $cliente = $this->clienteModel->find($id);
+        if (!$cliente) {
+            return $this->failNotFound('Cliente não encontrado');
+        }
 
-        // Chama o método do modelo para atualizar os dados do cliente
-        $result = $this->clienteModel->updateClientData($id, $data);
+        // Atualiza os dados do cliente
+        try {
+            $this->clienteModel->update($id, $data);
 
-        // Retorna a resposta com base no resultado
-        if ($result['status'] === 'success') {
-            return $this->respond(['mensagem' => $result['message']]);
-        } else {
-            return $this->fail($result['message']);
+            // Retorna sucesso
+            return $this->respond(['status' => 'success', 'message' => 'Dados do cliente atualizados com sucesso']);
+        } catch (\Exception $e) {
+            // Retorna erro em caso de falha
+            return $this->failServerError('Erro ao atualizar dados do cliente: ' . $e->getMessage());
         }
     }
-    
 
 }
