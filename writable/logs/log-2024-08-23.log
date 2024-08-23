@@ -1,0 +1,118 @@
+INFO - 2024-08-23 14:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-23 14:31:26 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php:185
+Stack trace:
+#0 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php(185): mysqli->real_connect('localhost', 'root', '', 'itaipu', 3306, '', 0)
+#1 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#4 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#5 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#6 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MigrationRunner.php(706): CodeIgniter\Database\MigrationRunner->ensureTable()
+#7 C:\xampp\htdocs\E-commerce-PizzaBack\system\Commands\Database\MigrateRollback.php(89): CodeIgniter\Database\MigrationRunner->getLastBatch()
+#8 C:\xampp\htdocs\E-commerce-PizzaBack\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\xampp\htdocs\E-commerce-PizzaBack\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\xampp\htdocs\E-commerce-PizzaBack\spark(102): CodeIgniter\CLI\Console->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+ in C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php:229
+Stack trace:
+#0 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(1409): CodeIgniter\Database\BaseConnection->query('SHOW TABLES FRO...')
+#3 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(1428): CodeIgniter\Database\BaseConnection->listTables()
+#4 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MigrationRunner.php(768): CodeIgniter\Database\BaseConnection->tableExists('migrations')
+#5 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MigrationRunner.php(706): CodeIgniter\Database\MigrationRunner->ensureTable()
+#6 C:\xampp\htdocs\E-commerce-PizzaBack\system\Commands\Database\MigrateRollback.php(89): CodeIgniter\Database\MigrationRunner->getLastBatch()
+#7 C:\xampp\htdocs\E-commerce-PizzaBack\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#8 C:\xampp\htdocs\E-commerce-PizzaBack\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#9 C:\xampp\htdocs\E-commerce-PizzaBack\spark(102): CodeIgniter\CLI\Console->run()
+#10 {main}
+CRITICAL - 2024-08-23 17:16:59 --> Undefined index: medida
+in APPPATH\Controllers\Pedidos.php on line 56.
+ 1 APPPATH\Controllers\Pedidos.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: medida', 'C:\\xampp\\htdocs\\E-commerce-PizzaBack\\app\\Controllers\\Pedidos.php', 56, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedidos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+CRITICAL - 2024-08-23 17:17:11 --> Cannot use object of type stdClass as array
+in APPPATH\Models\ProdutoEspecificacaoModel.php on line 49.
+ 1 APPPATH\Controllers\Pedidos.php(61): App\Models\ProdutoEspecificacaoModel->validaCustomizavel('1')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedidos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+CRITICAL - 2024-08-23 17:20:11 --> Cannot use object of type App\Entities\Produto as array
+in APPPATH\Controllers\Pedidos.php on line 152.
+ 1 APPPATH\Controllers\Pedidos.php(66): App\Controllers\Pedidos->validaSabores([...], '1')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedidos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+CRITICAL - 2024-08-23 17:21:27 --> Undefined index: medida_id
+in APPPATH\Controllers\Pedidos.php on line 93.
+ 1 APPPATH\Controllers\Pedidos.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: medida_id', 'C:\\xampp\\htdocs\\E-commerce-PizzaBack\\app\\Controllers\\Pedidos.php', 93, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedidos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+CRITICAL - 2024-08-23 17:22:16 --> Undefined index: medida_id
+in APPPATH\Controllers\Pedidos.php on line 93.
+ 1 APPPATH\Controllers\Pedidos.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: medida_id', 'C:\\xampp\\htdocs\\E-commerce-PizzaBack\\app\\Controllers\\Pedidos.php', 93, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedidos->index()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+ERROR - 2024-08-23 17:23:58 --> mysqli_sql_exception: Unknown column 'medida' in 'field list' in C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\E-commerce-PizzaBack\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\E-commerce-PizzaBack\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\E-commerce-PizzaBack\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\E-commerce-PizzaBack\app\Controllers\Pedidos.php(98): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(919): App\Controllers\Pedidos->index()
+#9 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#10 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\E-commerce-PizzaBack\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\E-commerce-PizzaBack\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-08-23 17:23:58 --> Unknown column 'medida' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pedidos` (`cliente_id`, `endereco`, `status`, `total`, `produtos`, `medida`, `quantidade`, `criado_em`, `atualizado_em`) VALUES (:cliente_id:, :endereco:, :status:, :total:, :produtos:, :medida:, :quantidade:, :criado_em:, :atualizado_em:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Pedidos.php(98): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedidos->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+CRITICAL - 2024-08-23 17:31:35 --> Call to undefined method App\Models\ProdutoExtraModel::getExtrasPermitidos
+in SYSTEMPATH\Model.php on line 873.
+ 1 APPPATH\Controllers\Pedidos.php(122): CodeIgniter\Model->__call('getExtrasPermitidos', [...])
+ 2 APPPATH\Controllers\Pedidos.php(76): App\Controllers\Pedidos->validaExtras([...], '1')
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedidos->index()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+CRITICAL - 2024-08-23 17:34:48 --> Object of class stdClass could not be converted to int
+in APPPATH\Controllers\Pedidos.php on line 126.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class stdClass could not be converted to int', 'C:\\xampp\\htdocs\\E-commerce-PizzaBack\\app\\Controllers\\Pedidos.php', 126, [...])
+ 2 APPPATH\Controllers\Pedidos.php(126): in_array(2, [...])
+ 3 APPPATH\Controllers\Pedidos.php(76): App\Controllers\Pedidos->validaExtras([...], '1')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedidos->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')

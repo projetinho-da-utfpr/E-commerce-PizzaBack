@@ -32,4 +32,24 @@ class ProdutoExtraModel extends Model
                     ->where('produtos_extras.produto_id',$produto_id)
                     ->paginate($quantidade_paginacao);
     }
+    public function validaExtraProduto($produto_id, $extra_id)
+    {
+        // Verifica se o extra está associado ao produto na tabela produtos_extras
+        $extraProduto = $this->db->table('produtos_extras')
+                                ->where('produto_id', $produto_id)
+                                ->where('extra_id', $extra_id)
+                                ->get()
+                                ->getRow();
+
+        if ($extraProduto) {
+            return true; // O extra pode ser inserido no produto
+        } else {
+            return false; // O extra não pode ser inserido no produto
+        }
+    }
+    public function getExtrasPermitidos($produtoId)
+    {
+        return $this->where('produto_id', $produtoId)
+                    ->findAll();
+    }
 }

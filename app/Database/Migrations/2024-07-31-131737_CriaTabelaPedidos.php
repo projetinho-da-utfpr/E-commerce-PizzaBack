@@ -39,23 +39,13 @@ class CriaTabelaPedidos extends Migration
                 'type' => 'VARCHAR',
                 'constraint' => '128',
             ],
-            'customizavel_id' => [
-                'type' => 'INT',
-                'constraint' => 11,
-                'unsigned' => true,
-                'null' => true, // Permitir null
+            'sabores' => [
+                'type' => 'TEXT',
+                'null' => true, // Coluna para armazenar os IDs dos sabores
             ],
-            'customizavelDois_id' => [
-                'type' => 'INT',
-                'constraint' => 11,
-                'unsigned' => true,
-                'null' => true, // Permitir null
-            ],
-            'customizavelTres_id' => [
-                'type' => 'INT',
-                'constraint' => 11,
-                'unsigned' => true,
-                'null' => true, // Permitir null
+            'extras' => [
+                'type' => 'TEXT',
+                'null' => true, // Coluna para armazenar os IDs dos extras
             ],
             'medida_id' => [
                 'type' => 'INT',
@@ -82,22 +72,20 @@ class CriaTabelaPedidos extends Migration
                 'default' => null,
             ],
         ]);
-
+    
         // Chave primária
         $this->forge->addPrimaryKey('id');
-
+    
         // Chave estrangeira para referenciar a tabela de clientes
         $this->forge->addForeignKey('cliente_id', 'clientes', 'id', 'CASCADE', 'CASCADE');
-
-        // Chaves estrangeiras para customizáveis e medida
-        $this->forge->addForeignKey('customizavel_id', 'produtos_especificacoes', 'id', 'SET NULL', 'CASCADE');
-        $this->forge->addForeignKey('customizavelDois_id', 'produtos_especificacoes', 'id', 'SET NULL', 'CASCADE');
-        $this->forge->addForeignKey('customizavelTres_id', 'produtos_especificacoes', 'id', 'SET NULL', 'CASCADE');
+    
+        // Chave estrangeira para medida
         $this->forge->addForeignKey('medida_id', 'medidas', 'id', 'CASCADE', 'CASCADE');
-
+    
         // Cria a tabela
         $this->forge->createTable('pedidos');
     }
+    
 
     public function down()
     {
