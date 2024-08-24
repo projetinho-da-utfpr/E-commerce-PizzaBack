@@ -9,7 +9,7 @@ class PedidoModel extends Model
     protected $table            = 'pedidos';
     protected $returnType       = 'App\Entities\Pedido';
     protected $useSoftDeletes   = true;
-    protected $allowedFields = ['produtos', 'cliente_id', 'endereco', 'customizavel','status', 'total','quantidade','medida_id','sabores','extras'];
+    protected $allowedFields = ['produtos', 'cliente_id', 'endereco','medida_id', 'customizavel','status', 'total','quantidade','sabores','extras'];
 
     // Dates
     protected $useTimestamps = true;
@@ -42,10 +42,22 @@ class PedidoModel extends Model
         if (empty($clienteId)) {
             return [];
         }
-
-        return $this->select('total, quantidade, produtos, customizavel, status')
-                    ->where('cliente_id', $clienteId)
-                    ->orderBy('criado_em', 'DESC') // Ordena pelos pedidos mais recentes
+    
+        return $this->select('pedidos.total, pedidos.quantidade, pedidos.status, 
+                              pedidos.endereco, medidas.nome as medida, 
+                              GROUP_CONCAT(DISTINCT produtos.nome SEPARATOR ", ") as produtos, 
+                              GROUP_CONCAT(DISTINCT extras.nome SEPARATOR ", ") as extras, 
+                              GROUP_CONCAT(DISTINCT sabores.nome SEPARATOR ", ") as sabores')
+                    ->join('produtos AS produtos', 'FIND_IN_SET(produtos.id, pedidos.produtos)', 'left')
+                    ->join('produtos AS sabores', 'FIND_IN_SET(sabores.id, pedidos.sabores) AND sabores.categoria_id = produtos.categoria_id', 'left')
+                    ->join('extras AS extras', 'FIND_IN_SET(extras.id, pedidos.extras)', 'left')
+                    ->join('medidas AS medidas', 'medidas.id = pedidos.medida_id', 'left')
+                    ->where('pedidos.cliente_id', $clienteId)
+                    ->groupBy('pedidos.id')
+                    ->orderBy('pedidos.criado_em', 'DESC') // Ordena pelos pedidos mais recentes
                     ->findAll(5); // Limita o resultado aos últimos 5 pedidos
     }
+    
+    
+
 }

@@ -32,6 +32,15 @@ class ProdutoExtraModel extends Model
                     ->where('produtos_extras.produto_id',$produto_id)
                     ->paginate($quantidade_paginacao);
     }
+    public function buscaExtrasDoProdutoSemPaginacao(int $produto_id = null)
+    {
+        return $this->select('extras.nome AS extra, extras.preco')
+                    ->join('extras', 'extras.id = produtos_extras.extra_id')
+                    ->join('produtos', 'produtos.id = produtos_extras.produto_id')
+                    ->where('produtos_extras.produto_id', $produto_id)
+                    ->findAll();
+    }
+
     public function validaExtraProduto($produto_id, $extra_id)
     {
         // Verifica se o extra está associado ao produto na tabela produtos_extras

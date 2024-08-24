@@ -116,3 +116,282 @@ in APPPATH\Controllers\Pedidos.php on line 126.
  6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
  8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+INFO - 2024-08-23 20:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-08-23 20:25:37 --> mysqli_sql_exception: Unknown column 'extra' in 'field list' in C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `total`,...', 0)
+#1 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `total`,...')
+#2 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `total`,...')
+#3 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `total`,...', Array, false)
+#4 C:\xampp\htdocs\E-commerce-PizzaBack\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\E-commerce-PizzaBack\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\E-commerce-PizzaBack\app\Models\PedidoModel.php(49): CodeIgniter\BaseModel->findAll(5)
+#7 C:\xampp\htdocs\E-commerce-PizzaBack\app\Controllers\Pedidos.php(202): App\Models\PedidoModel->buscaUltimosPedidos('1')
+#8 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(919): App\Controllers\Pedidos->ultimosPedidos('1')
+#9 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#10 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\E-commerce-PizzaBack\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\E-commerce-PizzaBack\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-08-23 20:25:37 --> Unknown column 'extra' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `total`, `quantidade`, `produtos`, `extra`, `sabores`, `medida`, `endereco`, `status`
+FROM `pedidos`
+WHERE `cliente_id` = :cliente_id:
+AND `pedidos`.`deletado_em` IS NULL
+ORDER BY `criado_em` DESC
+ LIMIT 5', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+ 4 APPPATH\Models\PedidoModel.php(49): CodeIgniter\BaseModel->findAll(5)
+ 5 APPPATH\Controllers\Pedidos.php(202): App\Models\PedidoModel->buscaUltimosPedidos('1')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedidos->ultimosPedidos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+ERROR - 2024-08-23 20:26:19 --> mysqli_sql_exception: Unknown column 'medida' in 'field list' in C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `total`,...', 0)
+#1 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `total`,...')
+#2 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `total`,...')
+#3 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `total`,...', Array, false)
+#4 C:\xampp\htdocs\E-commerce-PizzaBack\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\E-commerce-PizzaBack\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\E-commerce-PizzaBack\app\Models\PedidoModel.php(49): CodeIgniter\BaseModel->findAll(5)
+#7 C:\xampp\htdocs\E-commerce-PizzaBack\app\Controllers\Pedidos.php(202): App\Models\PedidoModel->buscaUltimosPedidos('1')
+#8 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(919): App\Controllers\Pedidos->ultimosPedidos('1')
+#9 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#10 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\E-commerce-PizzaBack\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\E-commerce-PizzaBack\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-08-23 20:26:19 --> Unknown column 'medida' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `total`, `quantidade`, `produtos`, `extras`, `sabores`, `medida`, `endereco`, `status`
+FROM `pedidos`
+WHERE `cliente_id` = :cliente_id:
+AND `pedidos`.`deletado_em` IS NULL
+ORDER BY `criado_em` DESC
+ LIMIT 5', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+ 4 APPPATH\Models\PedidoModel.php(49): CodeIgniter\BaseModel->findAll(5)
+ 5 APPPATH\Controllers\Pedidos.php(202): App\Models\PedidoModel->buscaUltimosPedidos('1')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedidos->ultimosPedidos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+ERROR - 2024-08-23 20:27:19 --> mysqli_sql_exception: Unknown column 'medida' in 'field list' in C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `total`,...', 0)
+#1 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `total`,...')
+#2 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `total`,...')
+#3 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `total`,...', Array, false)
+#4 C:\xampp\htdocs\E-commerce-PizzaBack\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\E-commerce-PizzaBack\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\E-commerce-PizzaBack\app\Models\PedidoModel.php(49): CodeIgniter\BaseModel->findAll(5)
+#7 C:\xampp\htdocs\E-commerce-PizzaBack\app\Controllers\Pedidos.php(202): App\Models\PedidoModel->buscaUltimosPedidos('1')
+#8 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(919): App\Controllers\Pedidos->ultimosPedidos('1')
+#9 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#10 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\E-commerce-PizzaBack\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\E-commerce-PizzaBack\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-08-23 20:27:19 --> Unknown column 'medida' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `total`, `quantidade`, `produtos`, `extras`, `sabores`, `medida`, `endereco`, `status`
+FROM `pedidos`
+WHERE `cliente_id` = :cliente_id:
+AND `pedidos`.`deletado_em` IS NULL
+ORDER BY `criado_em` DESC
+ LIMIT 5', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+ 4 APPPATH\Models\PedidoModel.php(49): CodeIgniter\BaseModel->findAll(5)
+ 5 APPPATH\Controllers\Pedidos.php(202): App\Models\PedidoModel->buscaUltimosPedidos('1')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedidos->ultimosPedidos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+ERROR - 2024-08-23 20:27:26 --> mysqli_sql_exception: Unknown column 'medida' in 'field list' in C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `total`,...', 0)
+#1 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `total`,...')
+#2 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `total`,...')
+#3 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `total`,...', Array, false)
+#4 C:\xampp\htdocs\E-commerce-PizzaBack\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\E-commerce-PizzaBack\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\E-commerce-PizzaBack\app\Models\PedidoModel.php(49): CodeIgniter\BaseModel->findAll(5)
+#7 C:\xampp\htdocs\E-commerce-PizzaBack\app\Controllers\Pedidos.php(202): App\Models\PedidoModel->buscaUltimosPedidos('1')
+#8 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(919): App\Controllers\Pedidos->ultimosPedidos('1')
+#9 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#10 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\E-commerce-PizzaBack\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\E-commerce-PizzaBack\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-08-23 20:27:26 --> Unknown column 'medida' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `total`, `quantidade`, `produtos`, `extras`, `sabores`, `medida`, `endereco`, `status`
+FROM `pedidos`
+WHERE `cliente_id` = :cliente_id:
+AND `pedidos`.`deletado_em` IS NULL
+ORDER BY `criado_em` DESC
+ LIMIT 5', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+ 4 APPPATH\Models\PedidoModel.php(49): CodeIgniter\BaseModel->findAll(5)
+ 5 APPPATH\Controllers\Pedidos.php(202): App\Models\PedidoModel->buscaUltimosPedidos('1')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedidos->ultimosPedidos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+ERROR - 2024-08-23 20:30:39 --> mysqli_sql_exception: Table 'itaipu.medida' doesn't exist in C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\E-commerce-PizzaBack\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\E-commerce-PizzaBack\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\E-commerce-PizzaBack\app\Models\PedidoModel.php(57): CodeIgniter\BaseModel->findAll(5)
+#7 C:\xampp\htdocs\E-commerce-PizzaBack\app\Controllers\Pedidos.php(202): App\Models\PedidoModel->buscaUltimosPedidos('1')
+#8 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(919): App\Controllers\Pedidos->ultimosPedidos('1')
+#9 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#10 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\E-commerce-PizzaBack\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\E-commerce-PizzaBack\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-08-23 20:30:39 --> Table 'itaipu.medida' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos`.`total`, `pedidos`.`quantidade`, `produtos`.`nome` AS `produto_nome`, GROUP_CONCAT(DISTINCT extras.nome SEPARATOR ", ") AS extras_nomes, GROUP_CONCAT(DISTINCT sabores.nome SEPARATOR ", ") AS sabores_nomes, `medida`.`nome` AS `medida_nome`, `pedidos`.`endereco`, `pedidos`.`status`
+FROM `pedidos`
+JOIN `produtos` ON `produtos`.`id` = `pedidos`.`produtos`
+LEFT JOIN `medida` ON `medida`.`id` = `pedidos`.`medida_id`
+LEFT JOIN `extras` ON FIND_IN_SET(extras.id, pedidos.extras) > 0
+LEFT JOIN `sabores` ON FIND_IN_SET(sabores.id, pedidos.sabores) > 0
+WHERE `pedidos`.`cliente_id` = :pedidos.cliente_id:
+AND `pedidos`.`deletado_em` IS NULL
+GROUP BY `pedidos`.`id`
+ORDER BY `pedidos`.`criado_em` DESC
+ LIMIT 5', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+ 4 APPPATH\Models\PedidoModel.php(57): CodeIgniter\BaseModel->findAll(5)
+ 5 APPPATH\Controllers\Pedidos.php(202): App\Models\PedidoModel->buscaUltimosPedidos('1')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedidos->ultimosPedidos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+ERROR - 2024-08-23 20:31:29 --> mysqli_sql_exception: Table 'itaipu.sabores' doesn't exist in C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\E-commerce-PizzaBack\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\E-commerce-PizzaBack\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\E-commerce-PizzaBack\app\Models\PedidoModel.php(57): CodeIgniter\BaseModel->findAll(5)
+#7 C:\xampp\htdocs\E-commerce-PizzaBack\app\Controllers\Pedidos.php(202): App\Models\PedidoModel->buscaUltimosPedidos('1')
+#8 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(919): App\Controllers\Pedidos->ultimosPedidos('1')
+#9 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#10 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\E-commerce-PizzaBack\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\E-commerce-PizzaBack\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-08-23 20:31:29 --> Table 'itaipu.sabores' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos`.`total`, `pedidos`.`quantidade`, `produtos`.`nome` AS `produto_nome`, GROUP_CONCAT(DISTINCT extras.nome SEPARATOR ", ") AS extras_nomes, GROUP_CONCAT(DISTINCT sabores.nome SEPARATOR ", ") AS sabores_nomes, `medida`.`nome` AS `medida_nome`, `pedidos`.`endereco`, `pedidos`.`status`
+FROM `pedidos`
+JOIN `produtos` ON `produtos`.`id` = `pedidos`.`produtos`
+LEFT JOIN `medidas` ON `medida`.`id` = `pedidos`.`medida_id`
+LEFT JOIN `extras` ON FIND_IN_SET(extras.id, pedidos.extras) > 0
+LEFT JOIN `sabores` ON FIND_IN_SET(sabores.id, pedidos.sabores) > 0
+WHERE `pedidos`.`cliente_id` = :pedidos.cliente_id:
+AND `pedidos`.`deletado_em` IS NULL
+GROUP BY `pedidos`.`id`
+ORDER BY `pedidos`.`criado_em` DESC
+ LIMIT 5', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+ 4 APPPATH\Models\PedidoModel.php(57): CodeIgniter\BaseModel->findAll(5)
+ 5 APPPATH\Controllers\Pedidos.php(202): App\Models\PedidoModel->buscaUltimosPedidos('1')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedidos->ultimosPedidos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+ERROR - 2024-08-23 20:37:58 --> mysqli_sql_exception: Unknown column 'sabores.nome' in 'field list' in C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `pedidos...', 0)
+#1 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `pedidos...')
+#2 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `pedidos...')
+#3 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos...', Array, false)
+#4 C:\xampp\htdocs\E-commerce-PizzaBack\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\E-commerce-PizzaBack\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+#6 C:\xampp\htdocs\E-commerce-PizzaBack\app\Models\PedidoModel.php(57): CodeIgniter\BaseModel->findAll(5)
+#7 C:\xampp\htdocs\E-commerce-PizzaBack\app\Controllers\Pedidos.php(202): App\Models\PedidoModel->buscaUltimosPedidos('1')
+#8 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(919): App\Controllers\Pedidos->ultimosPedidos('1')
+#9 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+#10 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\E-commerce-PizzaBack\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\E-commerce-PizzaBack\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-08-23 20:37:58 --> Unknown column 'sabores.nome' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `pedidos`.`total`, `pedidos`.`quantidade`, `pedidos`.`status`, `pedidos`.`endereco`, `medidas`.`nome` as `medida`, GROUP_CONCAT(produtos.nome SEPARATOR ", ") as produtos, GROUP_CONCAT(extras.nome SEPARATOR ", ") as extras, GROUP_CONCAT(sabores.nome SEPARATOR ", ") as sabores
+FROM `pedidos`
+LEFT JOIN `produtos` AS `produtos` ON `FIND_IN_SET`(produtos.id, pedidos.produtos)
+LEFT JOIN `extras` AS `extras` ON `FIND_IN_SET`(extras.id, pedidos.extras)
+LEFT JOIN `medidas` AS `medidas` ON `medidas`.`id` = `pedidos`.`medida_id`
+WHERE `pedidos`.`cliente_id` = :pedidos.cliente_id:
+AND `pedidos`.`deletado_em` IS NULL
+GROUP BY `pedidos`.`id`
+ORDER BY `pedidos`.`criado_em` DESC
+ LIMIT 5', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(5, 0)
+ 4 APPPATH\Models\PedidoModel.php(57): CodeIgniter\BaseModel->findAll(5)
+ 5 APPPATH\Controllers\Pedidos.php(202): App\Models\PedidoModel->buscaUltimosPedidos('1')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Pedidos->ultimosPedidos('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pedidos))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')
+ERROR - 2024-08-23 21:08:00 --> mysqli_sql_exception: Not unique table/alias: 'produtos' in C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `extras`...', 0)
+#1 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `extras`...')
+#2 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `extras`...')
+#3 C:\xampp\htdocs\E-commerce-PizzaBack\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `extras`...', Array, false)
+#4 C:\xampp\htdocs\E-commerce-PizzaBack\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\E-commerce-PizzaBack\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\E-commerce-PizzaBack\app\Models\ProdutoModel.php(185): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\E-commerce-PizzaBack\app\Controllers\ProdutoWeb.php(34): App\Models\ProdutoModel->buscaProdutoPorId('1')
+#8 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(919): App\Controllers\ProdutoWeb->buscaPorId('1')
+#9 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdutoWeb))
+#10 C:\xampp\htdocs\E-commerce-PizzaBack\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\E-commerce-PizzaBack\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\E-commerce-PizzaBack\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2024-08-23 21:08:00 --> Not unique table/alias: 'produtos'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `extras`.`nome` AS `extra_nome`, `extras`.`preco` AS `extra_preco`
+FROM `produtos`
+JOIN `produtos_extras` ON `produtos_extras`.`extra_id` = `extras`.`id`
+JOIN `produtos` ON `produtos`.`id` = `produtos_extras`.`produto_id`
+WHERE `produtos`.`id` = :produtos.id:
+AND `produtos`.`deletado_em` IS NULL', [...], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\ProdutoModel.php(185): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\ProdutoWeb.php(34): App\Models\ProdutoModel->buscaProdutoPorId('1')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProdutoWeb->buscaPorId('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProdutoWeb))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\E-commerce-PizzaBack\\public\\index.php')

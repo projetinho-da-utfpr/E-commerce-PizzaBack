@@ -131,63 +131,70 @@ class ProdutoModel extends Model
     }
     
 
-    public function buscaProdutoPorId($id) {
+    public function buscaProdutoPorId($id)
+    {
         // Executa a consulta para buscar os dados do produto específico
         $resultados = $this->select([
-                'produtos.id',
-                'produtos.nome',
-                'produtos.ingredientes',
-                'produtos.slug',
-                'produtos.imagem',
-                'categorias.id AS categoria_id',
-                'categorias.nome AS categoria',
-                'categorias.slug AS categoria_slug',
-                'medidas.nome AS medida', // Supondo que "nome" seja a coluna para o nome da medida
-                'produtos_especificacoes.preco',
-                'produtos_especificacoes.customizavel' // Seleciona se o produto é customizável
+                'p.id',
+                'p.nome',
+                'p.ingredientes',
+                'c.id AS categoria_id',
+                'c.nome AS categoria',
+                'm.nome AS medida',
+                'pe.preco',
+                'pe.customizavel'
             ])
-            ->join('categorias', 'categorias.id = produtos.categoria_id')
-            ->join('produtos_especificacoes', 'produtos_especificacoes.produto_id = produtos.id')
-            ->join('medidas', 'medidas.id = produtos_especificacoes.medida_id') // Supondo que "medida_id" seja a coluna de referência
-            ->where('produtos.ativo', true)
-            ->where('produtos.id', $id) // Filtra pelo ID do produto passado como parâmetro
-            ->orderBy('categorias.nome', 'ASC')
-            ->orderBy('produtos.id', 'ASC')
+            ->from('produtos AS p')
+            ->join('categorias AS c', 'c.id = p.categoria_id')
+            ->join('produtos_especificacoes AS pe', 'pe.produto_id = p.id')
+            ->join('medidas AS m', 'm.id = pe.medida_id')
+            ->where('p.ativo', true)
+            ->where('p.id', $id)
+            ->groupBy(['p.id', 'pe.id']) // Agrupa pelos IDs únicos
+            ->orderBy('c.nome', 'ASC')
+            ->orderBy('p.id', 'ASC')
             ->findAll();
     
         // Processa os resultados para agrupar as medidas e preços por produto
         $produtoDetalhes = null;
-        
+    
         if (!empty($resultados)) {
-            // Inicializa o array com as informações básicas do produto
             $produtoDetalhes = [
                 'id' => $resultados[0]->id,
                 'nome' => $resultados[0]->nome,
                 'ingredientes' => $resultados[0]->ingredientes,
-                'slug' => $resultados[0]->slug,
-                'imagem' => $resultados[0]->imagem,
                 'categoria_id' => $resultados[0]->categoria_id,
                 'categoria' => $resultados[0]->categoria,
-                'categoria_slug' => $resultados[0]->categoria_slug,
-                'especificacoes' => [] // Inicializa o array para as medidas e preços
+                'especificacoes' => [],
+                'extras' => []
             ];
     
-            // Adiciona as medidas, os preços e a informação de customização ao array de especificações do produto
             foreach ($resultados as $produto) {
                 $produtoDetalhes['especificacoes'][] = [
                     'medida' => $produto->medida,
                     'preco' => $produto->preco,
-                    'customizavel' => $produto->customizavel // Adiciona a informação se é customizável
+                    'customizavel' => $produto->customizavel
+                ];
+            }
+    
+            // Busca os extras disponíveis para o produto
+            $extras = $this->select('e.nome AS extra_nome, e.preco AS extra_preco')
+                ->from('produtos_extras AS pe')
+                ->join('extras AS e', 'e.id = pe.extra_id')
+                ->where('pe.produto_id', $id)
+                ->groupBy(['e.id']) // Agrupa pelos IDs dos extras
+                ->findAll();
+    
+            foreach ($extras as $extra) {
+                $produtoDetalhes['extras'][] = [
+                    'nome' => $extra->extra_nome,
+                    'preco' => $extra->extra_preco
                 ];
             }
         }
     
-        // Retorna os detalhes do produto
         return $produtoDetalhes;
     }
-    
-    
-    
-    
+ 
     
 }

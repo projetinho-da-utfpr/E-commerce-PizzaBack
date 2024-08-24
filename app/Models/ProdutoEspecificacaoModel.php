@@ -34,12 +34,15 @@ class ProdutoEspecificacaoModel extends Model
     }
     public function buscaEspecificacoesProdutoSemPaginacao(int $produto_id)
     {
-    return $this->select('medidas.nome AS medida, produtos_especificacoes.*')
-                ->join('medidas', 'medidas.id = produtos_especificacoes.medida_id')
-                ->join('produtos', 'produtos.id = produtos_especificacoes.produto_id')
-                ->where('produtos_especificacoes.produto_id', $produto_id)
-                ->findAll(); // Utiliza findAll() para retornar todos os resultados sem paginação
+        return $this->select('medidas.nome AS medida, 
+                              produtos_especificacoes.*, 
+                              produtos.nome AS produto_nome') // Adicione aqui outros nomes que deseja retornar
+                    ->join('medidas', 'medidas.id = produtos_especificacoes.medida_id')
+                    ->join('produtos', 'produtos.id = produtos_especificacoes.produto_id')
+                    ->where('produtos_especificacoes.produto_id', $produto_id)
+                    ->findAll(); // Utiliza findAll() para retornar todos os resultados sem paginação
     }
+    
     public function validaCustomizavel($id_produto)
 {
     // Busca a especificação do produto pelo ID

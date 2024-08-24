@@ -16,6 +16,7 @@ $routes->post('alterarCliente/(:num)','Clientes::alteraDadosCliente/$1');
 $routes->get('pedidosCliente/(:num)','Pedidos::ultimosPedidos/$1');
 $routes->post('clienteLogin','LoginCliente::index');
 $routes->get('especificacoes/(:num)','Medidas::index/$1');
+$routes->get('extras/(:num)','Medidas::extrasProduto/$1');
 
 
 $routes->get('login', 'Login::novo',['filter' => 'visitante']);
